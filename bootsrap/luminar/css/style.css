@@ -1,0 +1,79 @@
+.nav-link:hover {
+    color: #701270 !important; /* Change hover color to green */
+    font-weight: 800;
+}
+.nav-link.active {
+    color: #741867 !important; /* Change active link color to green */
+    border-bottom: 2px solid #742769 !important; /* Green underline for active link */
+    font-weight: bolder;
+}
+.contact-div1{
+    width: 500px;
+    height: 700px;
+    /* background-color: azure; */
+    margin-top: -1300px;
+    margin-left: 400px;
+}
+.contact-div2{
+    width: 600px;
+    height: 900px;
+    /* background-color: rgb(100, 163, 226); */
+    margin-top: -700px;
+    margin-left: 900px;
+}
+/* Adjust the placeholder text size */
+.form-floating .form-control::placeholder {
+    font-size: 16px; /* Change to your preferred size */
+    color: #696969; /* Optional: Change the placeholder color */
+}
+
+.form-floating .form-control {
+    width: 680px;
+    height: 60px;
+    border-radius: 4px;
+    border: solid 1px rgb(175, 175, 175);
+    font-size:small;
+}
+.contact-btn{
+    color: #701270;
+    border: solid 2px #701270 ;
+    width: 140px;
+    height: 45px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 530px;
+}
+.contact-btn:hover{
+    color: #701270;
+    border: solid 2px #701270 ;
+}
+/* For cross-browser compatibility */
+.form-select {
+    background-color: rgb(249, 249, 252) !important; /* Force the background color */
+    width: 680px;
+    height: 60px;
+    border-radius: 4px;
+    border: solid 1px rgb(172, 169, 169);
+    -webkit-appearance: none;  /* Disable default appearance in Webkit browsers */
+    -moz-appearance: none;     /* Disable default appearance in Firefox */
+    appearance: none;          /* Standard for other browsers */
+}
+.round1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 247, 238);
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center; /* Centers the icon horizontally */
+    align-items: center; 
+}
+.icon{
+    align-items: center;
+    height: 30px;
+    font-size: 30px;
+    color: #701270;
+}
